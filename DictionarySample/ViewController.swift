@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import ChameleonFramework
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+
+        self.view.tintColor = UIColor.flatGreenColorDark()
+        //self.view.backgroundColor = UIColor.flatMintColor()
     }
 
     override func didReceiveMemoryWarning() {
